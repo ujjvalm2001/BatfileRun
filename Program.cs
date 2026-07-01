@@ -70,11 +70,11 @@ class Program
                 }
 
                 Console.WriteLine("Batch file executed successfully.");
-                Console.WriteLine("Log saved at: " + logFilePath);
+                Console.WriteLine("Log saved at path: " + logFilePath);
             }
         }
         catch (Exception ex)
-        {
+        { 
             try
             {
                 if (!Directory.Exists(logFolderPath))
