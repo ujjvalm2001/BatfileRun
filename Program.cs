@@ -10,6 +10,7 @@ class Program
         string logFolderPath = @"E:\@Project\consoleAppForBatRun";
 
         try
+
         {
             if (!File.Exists(batFilePath))
             {
